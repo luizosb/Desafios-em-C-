@@ -1,0 +1,11 @@
+C:\Users\LOSB\source\repos\Veiculo\obj\Debug\netcoreapp3.1\Veiculo.csprojAssemblyReference.cache
+C:\Users\LOSB\source\repos\Veiculo\obj\Debug\netcoreapp3.1\Veiculo.AssemblyInfoInputs.cache
+C:\Users\LOSB\source\repos\Veiculo\obj\Debug\netcoreapp3.1\Veiculo.AssemblyInfo.cs
+C:\Users\LOSB\source\repos\Veiculo\bin\Debug\netcoreapp3.1\Veiculo.exe
+C:\Users\LOSB\source\repos\Veiculo\bin\Debug\netcoreapp3.1\Veiculo.deps.json
+C:\Users\LOSB\source\repos\Veiculo\bin\Debug\netcoreapp3.1\Veiculo.runtimeconfig.json
+C:\Users\LOSB\source\repos\Veiculo\bin\Debug\netcoreapp3.1\Veiculo.runtimeconfig.dev.json
+C:\Users\LOSB\source\repos\Veiculo\bin\Debug\netcoreapp3.1\Veiculo.dll
+C:\Users\LOSB\source\repos\Veiculo\bin\Debug\netcoreapp3.1\Veiculo.pdb
+C:\Users\LOSB\source\repos\Veiculo\obj\Debug\netcoreapp3.1\Veiculo.dll
+C:\Users\LOSB\source\repos\Veiculo\obj\Debug\netcoreapp3.1\Veiculo.pdb
