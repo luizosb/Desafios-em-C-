@@ -6,11 +6,7 @@ namespace Loja
 {
     class Loja
     {
-        private string nome;
-        private string cnpj;
-        private List<Livro> livros;
-        private List<VideoGame> videoGame;
-
+       
         public Loja(string nome, string cnpj, List<Livro> livros, List<VideoGame> videoGame)
         {
             this.Nome = nome;
@@ -20,20 +16,41 @@ namespace Loja
         }
 
 
-        public string Nome { get => nome; set => nome = value; }
-        public string Cnpj { get => cnpj; set => cnpj = value; }
-        internal List<Livro> Livros { get => livros; set => livros = value; }
-        internal List<VideoGame> VideoGame { get => videoGame; set => videoGame = value; }
+        public string Nome { get ; set; }
+        public string Cnpj { get; set ; }
+        internal List<Livro> Livros { get; set; }
+        internal List<VideoGame> VideoGame { get ; set ; }
 
         public void listaLivros()
         {
-            for ( int i = 0; i < livros.Count; i++)
+            foreach ( Livro livros in Livros)
             {
-                Console.WriteLine("O livro é " + livros.Count(i);
+                Console.WriteLine("O livro é " + livros.Nome + ", com o preço de " + livros.Preco + ", com o estoque de " + livros.Qtd + ".");
             }
         }
 
+        public void listaVideoGames()
+        {
+            foreach (VideoGame videoGame in VideoGame)
+            {
+                Console.WriteLine("O livro é " + videoGame.Nome + ", com o preço de " + videoGame.Preco + ", com o estoque de " + videoGame.Qtd + ".");
+            }
+        }
 
+        public void calculaPatrimonio()
+        {
+            double x = 0;
+            double y = 0;
+            foreach (Livro livros in Livros)
+            {
+                x = x + (livros.Qtd * livros.Preco);
+            }
+            foreach(VideoGame videoGames in VideoGame)
+            {
+                y = y + (videoGames.Qtd * videoGames.Preco);
+            }
+            Console.WriteLine("O patrimônio é de " + (x + y) + " reais.");
+        }
 
 
 

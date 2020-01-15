@@ -43,11 +43,11 @@ namespace Loja
 
             Console.WriteLine("-----------------------------------------------------------------------------------------------------");
 
-            //kabum.listaVideoGames();
+            kabum.listaVideoGames();
 
             Console.WriteLine("-----------------------------------------------------------------------------------------------------");
 
-           // kabum.calculaPatrimonio();
+            kabum.calculaPatrimonio();
 
 
 
